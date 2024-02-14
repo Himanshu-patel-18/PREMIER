@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: .1px;
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20PX;
+    padding-left:  50px;
+    padding-right: 120px;
+    font-family: monument;
+    border-bottom: 1.5px solid black;
+    border-top: 1px solid black;
+}
+nav p{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1.5px solid black;
+    font-weight: 100;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: aber-mono;
+}
+
+nav h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.vid > video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.vid{
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    bottom: 3.5%;
+    background-color: rgba(0, 0, 0, 0.374);
+    color: white;
+    font-family: monument;
+}
+.vid h1{
+    font-size: 55px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 22%;
+    left: 3%;
+}
+.vid h3{
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+    font-weight: 100;
+}
+.vid p{
+    position: absolute;
+    bottom: 22%;
+    right: 3%;
+    /* background-color: red; */
+    padding: 36px;
+    border-radius: 50%;
+    border: 1px solid white;
+    border-right: 2px solid white;
+}
+.vid hr{
+    color: white;
+    position: absolute;
+    bottom: 17%;
+    right: 3%;
+    width: 94%;
+}
+.vid img{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+}
